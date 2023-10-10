@@ -1,0 +1,12 @@
+.MenuPrincipal{
+list-style-type:none;
+}
+.FotoPerfil{
+    width: 30%;height: 30%;
+    border-radius: 60px;
+}
+body{
+font-family:kanit;
+line-height:15px;
+font-size: 15px;
+}
