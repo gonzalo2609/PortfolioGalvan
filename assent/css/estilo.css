@@ -1,29 +1,48 @@
 .MenuPrincipal {
 list-style:none;
 overflow: hidden;
+
 }
 .MenuPrincipal li a {
+    display: inline-block;
     font-style: normal;
     font-size:20px;
-    float: left;
-    padding: 3px; ;
-    margin: 2px;
+    float:left;
+    padding: 10px; ;
+    margin: 5px;
     background-color:rgb(228, 228, 228) ;
-}
-    li a {
-        display: inline-block;
-color: black;
+    color: black;
+    display:inline-block;
 
-    }
+}
+.Nombre {
+    font-size: 40px;
+}
 
 .FotoPerfil{
-    width: 30%;height: 30%;
-    border-radius: 60px;
+    width: 25%;height: 25%;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-top-left-radius: 500px;
+    bor
+    
+
 }
 body{
-font-family:kanit;
-line-height:15px;
+font-family: kanit;
+line-height: 15px;
 font-size: 15px;
+}
+.TituloPrimario {
+    text-align: center;
+    font-size: 25px;
+}
+.TituloSecundario{
+    text-align: center;
+}
+p{
+    text-align: center;
 }
 
 
