@@ -1,6 +1,21 @@
-.MenuPrincipal{
-list-style-type:none;
+.MenuPrincipal {
+list-style:none;
+overflow: hidden;
 }
+.MenuPrincipal li a {
+    font-style: normal;
+    font-size:20px;
+    float: left;
+    padding: 3px; ;
+    margin: 2px;
+    background-color:rgb(228, 228, 228) ;
+}
+    li a {
+        display: inline-block;
+color: black;
+
+    }
+
 .FotoPerfil{
     width: 30%;height: 30%;
     border-radius: 60px;
@@ -10,3 +25,5 @@ font-family:kanit;
 line-height:15px;
 font-size: 15px;
 }
+
+
