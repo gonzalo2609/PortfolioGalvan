@@ -4,62 +4,65 @@
 
 
  body{
-margin: 0;
     font-family: kanit;
     line-height: 15px;
     font-size: 15px;
-    background-color:white;
-     background-image: url();
+box-sizing: border-box;
+    
     }
 
 
    /* INICIO DE HEADER*/
     
 #Header{
-display: flex;
     width: 100%;
     height: 100px;
     background-color:rgb(192, 192, 192);
-text-align: center;
-justify-content:space-around;
 
-
-
-}
-
-.MenuPrincipal{
-    overflow: hidden;
-list-style-type:none;
-width: 100%;
-}
-.MenuPrincipal li{
 float: left;
 
-
 }
-.MenuPrincipal li a {
-    display: inline-block;
-text-decoration:none;
-font-size: 20px;
-border: 1px solid;
-font-style: normal;
-color: black;
-z-index: 10;
-}
+ .Nav ul{ 
+    display: flex;
+
+    list-style: none;
+
+ }
 
 
-.MenuPrincipal li a:hover{
+ .Nav ul li a{
+    color: #000;
+    text-decoration: none;
+
+
+ }
+ .Nav ul li {
+flex: auto;
+    text-transform: uppercase;
+
+    border: 1px solid ;
+    font-size: 20px;
+
+ }
+
+
+
+
+
+.Nav li a:hover{
     background-color: red;
 
+
 }
+
 
 
 .Nombre {
     
     font-size: 40px;
-    text-align: center;
+    text-align:left;
    transition: 3s;
-    padding: 10px;
+    padding: 40px;
 
 
 }
@@ -68,8 +71,8 @@ z-index: 10;
 .Nombre:hover{
 
     text-decoration: underline;
-    -webkit-text-fill-color: red;
--webkit-background-clip:text;
+    -webkit-text-fill-color: white;
+
 }
 
 
@@ -134,7 +137,7 @@ margin: 20px;
 
 }
 
- .Imagen3:hover{
+ .Imagen:hover{
 transform:scale(1.2) ;
 
  }
