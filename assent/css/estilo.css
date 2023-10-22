@@ -1,13 +1,12 @@
  *{
     margin: 0;
+    padding: 0;
  }
 
 
  body{
     font-family: kanit;
-    line-height: 15px;
-    font-size: 15px;
-box-sizing: border-box;
+background-color: gray;
     
     }
 
@@ -15,16 +14,23 @@ box-sizing: border-box;
    /* INICIO DE HEADER*/
     
 #Header{
-    width: 100%;
-    height: 100px;
+width: 100%;
+height: 90px;
     background-color:rgb(192, 192, 192);
+position:fixed;
 
-float: left;
+
+}
+Nav{
+ position:absolute;
+left: 630px;
+bottom: 55px;
+
+
 
 }
  .Nav ul{ 
     display: flex;
-
     list-style: none;
 
  }
@@ -39,19 +45,18 @@ float: left;
  .Nav ul li {
 flex: auto;
     text-transform: uppercase;
-
+margin: 1px;
     border: 1px solid ;
     font-size: 20px;
+    border-radius: 5px;
 
  }
 
 
 
-
-
 .Nav li a:hover{
-    background-color: red;
-
+    background-color: white;
+ 
 
 }
 
@@ -62,7 +67,8 @@ flex: auto;
     font-size: 40px;
     text-align:left;
    transition: 3s;
-    padding: 40px;
+padding: 15px;
+
 
 
 }
@@ -76,30 +82,34 @@ flex: auto;
 }
 
 
-.FotoPerfil{
-    width:100px;height:100px;
-    border-radius:50%;
-    background-size: cover;
-    margin: 0 auto;
-
-}
-
 /* INICIO DE SSECION */
 
+#Seccion1{
+    display:inline;
+}
+.imagenperfil{
+width: 300px;
+height: 300px;
+border-radius: 50%;
+}
 
+
+
+    
 .TituloPrimario {
-
 
     text-align:center;
     font-size: 25px;
-    padding: 5px;
+    padding: 100px 0 0 0;
     
 }
+
+
 .TituloPrimario:hover {
 
-
+    -webkit-text-fill-color: white;
     text-decoration:underline ;
-    background-color: red;
+
 
 }
 
@@ -141,18 +151,25 @@ margin: 20px;
 transform:scale(1.2) ;
 
  }
+.BotonDescargar{
+    text-align: center;
+}
+ .Curriculum {
+font-size:20px;
+text-transform: uppercase;
+margin: 50px 0 50px 0px;
+border: 2px solid;
+border-radius: 10px;
+box-shadow:inset 8px 8px 10px 1px rgba(0,0,0,0.5);
 
- .Descargar {
-border: 0;
-border-radius: 8px;
-display: flex;
-cursor: pointer;
-padding: 5px;
+
+
+
  }
 
 
 
- .Descargar:hover{
+ .Curriculum:hover{
 background-color: red;
 
  }
