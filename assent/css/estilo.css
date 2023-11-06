@@ -15,6 +15,7 @@
 height: 100%;
 color: white;
 
+
     }
 
 
@@ -22,12 +23,10 @@ color: white;
     
 #Header{
 width: 100%;
-height: 80px;
+height:80px;
 padding: 10px;
 position:fixed;
 display: flex;
-
-
 
 }
 
@@ -95,45 +94,56 @@ margin: 0;
 
 /* INICIO DE SECCION */
 
-.Contenedor{ display: grid;
+.Contenedor{ 
 
-
+display: grid;
 
 
 } 
 
 #Seccion1{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
 
     height: 450px;
-background-color: red;
+
 
   
 }
 
 .caja1  {
- 
+ display: flex;
 width: 400px;
     height: 400px;
     margin: 5px;
 font-size: 20px;
 border: solid 1px;
+border-radius: 20px;
+align-items: center;
+text-align: center;
+
+
+}
+
+.caja1:hover {
+
+    color: black;
+    background-color: white;
+    
 
 
 
 }
 
-
-    
-    
-
-
 .imagen-perfil{
-    width: 400px;
-    height: 400px;
+
+
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
 border: 1px solid black;
+
+
 }
 
 .flip-card-inner{
@@ -164,13 +174,18 @@ position: absolute;
 top: 0;
 width: 100%;
 height: 100%;
-background-color: gray;
+background-color:white;
 transform: rotateY(180deg);
 border-radius: 50%;
 font-size: 15px;
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+color:black;
 
 }
+
+
     
 #Seccion2{
 
@@ -179,9 +194,13 @@ display: flex;
 justify-content: space-around;
 height: 500px;
 
-
 }
 
+.caja1{
+
+
+
+}
 
 #Seccion3{
 
@@ -205,17 +224,36 @@ justify-content: space-around;
     display: flex;
     justify-content: space-around;
 
+   
+}
+
+#Seccion6{
+display: flex;
+
+
+justify-content: center;
+align-content: center;
+align-items: center;
+margin:80px;
+
 }
 
 
 
-.TituloPrimario {
-    text-align:center;
-    font-size: 25px;
-padding: 100px;
 
+.TituloPrimario {
+    text-align: center ;
+    font-size: 25px;
+margin:100px 0 100px 0;
+
+
+width: 20%;
+position: relative;
+left: 40%;
 
     
+
+
 }
 
 
@@ -247,19 +285,19 @@ border-radius: 10px;
 }
 
  .Imagen:hover{
-transform:scale(1.2) ;
+transform:scale(1.1) ;
 
  }
 
 
 .BotonDescargar{
 
-    text-align: center;
+    text-align:center;
 
 
 }
  .Curriculum {
-font-size:20px;
+font-size:25px;
 text-transform: uppercase;
 margin: 50px 0 50px 0px;
 border: 2px solid;
@@ -272,8 +310,15 @@ box-shadow:inset 8px 8px 10px 1px rgba(0,0,0,0.5);
 
  .Curriculum:hover{
 background-color: red;
-
  }
+
+ul li {
+
+list-style: none;
+
+}
+
+ 
 /* INICIO DE FOOTER */
 
  #Footer{
@@ -290,8 +335,3 @@ background-color: red;
         height:50px;
     }
 
-.SobreMi{
-
-margin-top: 60px;
-
-}
