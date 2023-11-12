@@ -1,14 +1,16 @@
  *{
     margin: 0;
     padding: 0;
+
+
  }
 
 
  body {
     font-family: kanit;
- background-color: rgb(192, 192, 192);
- background-image:url(../img/FONDO4.jpg);
- background-position: center;
+ 
+    background-image:url(../img/FONDO4.jpg);
+    background-position: center;
  background-size:cover;
  background-repeat: no-repeat;
  background-attachment: fixed;
@@ -30,8 +32,10 @@ display: flex;
 
 }
 
+
 Nav{
- position:absolute;
+
+    position:absolute;
 left: 700px;
 bottom: 55px;
 
@@ -99,15 +103,19 @@ margin: 0;
 display: grid;
 
 
+
 } 
 
+/* SECCION 1 */
+
 #Seccion1{
+
     display: flex;
     justify-content:space-evenly;
-
+    width: 100%;
     height: 450px;
-
-
+margin-top: 15%;
+padding: 30px;
   
 }
 
@@ -115,15 +123,27 @@ display: grid;
  display: flex;
 width: 400px;
     height: 400px;
-    margin: 5px;
+    margin: 20px;
 font-size: 20px;
 border: solid 1px;
 border-radius: 20px;
 align-items: center;
 text-align: center;
+margin-top: 8%;
+
+}
+
+
+#Seccion1 .caja1 {
+
+    width: 400px;
+    height: 350px;
+
+
 
 
 }
+
 
 .caja1:hover {
 
@@ -141,7 +161,8 @@ text-align: center;
     width: 350px;
     height: 350px;
     border-radius: 50%;
-border: 1px solid black;
+
+margin-top: 25%;
 
 
 }
@@ -156,6 +177,7 @@ border: 1px solid black;
 .flip-card:hover .flip-card-inner{
     transform:rotateX(180deg);
     transform: rotateY(180deg);
+    
 
 
 }
@@ -172,8 +194,7 @@ border: 1px solid black;
 
 position: absolute;
 top: 0;
-width: 100%;
-height: 100%;
+
 background-color:white;
 transform: rotateY(180deg);
 border-radius: 50%;
@@ -183,9 +204,14 @@ flex-direction: column;
 justify-content: center;
 color:black;
 
+width: 350px;
+height: 350px;
+margin-top: 25%;
+
+
 }
 
-
+/* SECCION 2 */
     
 #Seccion2{
 
@@ -194,67 +220,150 @@ display: flex;
 justify-content: space-around;
 height: 500px;
 
-}
-
-.caja1{
-
-
+width: 100%;
+padding: 30px;
 
 }
+
+
+
+
+
+/*  SECCION 3 */
 
 #Seccion3{
 
     display: flex;
     justify-content: space-around;
+    height: 500px;
+    margin: 20px;
+    width: 100%;
 
+    padding: 30px;
 
 }
+
+/*  SECCION  4 */
 
 #Seccion4{
 
 display: flex;
-justify-content: space-around;
+justify-content:space-around;
 
+height: 500px;
+width: 100%;
+
+padding: 30px;
 
 }
+  
+
+/*  SECCION  5 */
+
+
 
 #Seccion5{
 
 
     display: flex;
-    justify-content: space-around;
+     justify-content:space-around;
 
-   
+    height: 500px;
+    padding: 30px;
+    width: 100%;
 }
 
-#Seccion6{
-display: flex;
 
+/*  SECCION 6 */
+
+#Seccion6{
+
+
+display:inline-block;
 
 justify-content: center;
 align-content: center;
 align-items: center;
 margin:80px;
+height: 300px;
+
+
 
 }
 
+#Seccion6 .Informacion{
 
+position: relative;
+margin-top: 10%;
+width: 200px;
+height: 200px;
+left: 42%;
+
+}
+
+#Seccion6 .Informacion:hover{
+
+
+-webkit-text-fill-color: black;
+
+
+
+}
+
+/* TITULO PRINCIPAL*/
 
 
 .TituloPrimario {
     text-align: center ;
     font-size: 25px;
-margin:100px 0 100px 0;
-
-
-width: 20%;
-position: relative;
-left: 40%;
-
-    
 
 
 }
+
+.SobreMi .TituloPrimario{
+
+    text-align: center ;
+    font-size: 25px;
+
+    position: relative;
+    top: 760%;
+
+
+
+}
+
+.Experiencia .TituloPrimario{
+
+    text-align: center ;
+    font-size: 25px;
+
+    position: relative;
+    top: 225%;
+
+}
+
+.Habilidades .TituloPrimario{
+
+
+    position: relative;
+top:280% ;
+
+}
+
+.Educacion .TituloPrimario{
+
+    position: relative;
+    top: 225%;
+    
+}
+
+.Cursos .TituloPrimario{
+
+    position: relative;
+    top: 225%;
+
+}
+
 
 
 .TituloPrimario:hover {
@@ -269,7 +378,7 @@ left: 40%;
 
 
 
-
+/* IMAGENES */
 
 
 .Imagen{
@@ -279,7 +388,8 @@ overflow: hidden;
 transition:o.5s;
 object-fit: cover;
 border-radius: 10px;
-
+margin: 20px;
+margin-top: 25%;
 
 
 }
@@ -288,6 +398,9 @@ border-radius: 10px;
 transform:scale(1.1) ;
 
  }
+
+
+/* BOTON DE DESCARGA*/
 
 
 .BotonDescargar{
@@ -312,9 +425,15 @@ box-shadow:inset 8px 8px 10px 1px rgba(0,0,0,0.5);
 background-color: red;
  }
 
+
+
 ul li {
 
 list-style: none;
+text-align: center;
+
+
+
 
 }
 
@@ -324,14 +443,19 @@ list-style: none;
  #Footer{
    
 
-    height: 100px;
+    height: 50px;
     font-size: 20px;
     padding: 5px;
-    text-align:center;}
+    text-align:center;
+margin: 0 0 50px 0;
+padding: 30px;
+width: 100%;
+}
 
 
     .ImgFooter{
         width: 50px;;
         height:50px;
     }
+
 
