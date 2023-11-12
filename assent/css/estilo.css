@@ -15,6 +15,7 @@
  background-repeat: no-repeat;
  background-attachment: fixed;
 height: 100%;
+width: 100%;
 color: white;
 
 
@@ -102,7 +103,7 @@ margin: 0;
 
 display: grid;
 
-
+width: 100%;
 
 } 
 
@@ -116,7 +117,7 @@ display: grid;
     height: 450px;
 margin-top: 15%;
 padding: 30px;
-  
+
 }
 
 .caja1  {
@@ -129,7 +130,8 @@ border: solid 1px;
 border-radius: 20px;
 align-items: center;
 text-align: center;
-margin-top: 8%;
+margin-top: 8%;position: relative;
+left:50px ;
 
 }
 
@@ -139,8 +141,8 @@ margin-top: 8%;
     width: 400px;
     height: 350px;
 
-
-
+position:relative;
+left:70px;
 
 }
 
@@ -162,7 +164,7 @@ margin-top: 8%;
     height: 350px;
     border-radius: 50%;
 
-margin-top: 25%;
+margin-top:33%;
 
 
 }
@@ -206,7 +208,7 @@ color:black;
 
 width: 350px;
 height: 350px;
-margin-top: 25%;
+margin-top: 33%;
 
 
 }
@@ -236,10 +238,11 @@ padding: 30px;
     display: flex;
     justify-content: space-around;
     height: 500px;
-    margin: 20px;
+  
     width: 100%;
 
     padding: 30px;
+
 
 }
 
@@ -278,7 +281,7 @@ padding: 30px;
 
 #Seccion6{
 
-
+width: 100%;
 display:inline-block;
 
 justify-content: center;
@@ -297,7 +300,7 @@ position: relative;
 margin-top: 10%;
 width: 200px;
 height: 200px;
-left: 42%;
+left: 41%;
 
 }
 
@@ -314,10 +317,16 @@ left: 42%;
 
 
 .TituloPrimario {
-    text-align: center ;
+
     font-size: 25px;
 
 
+position: relative;
+border-radius: 25px;
+width: 180px;
+text-align: center;
+
+left: 47%;
 }
 
 .SobreMi .TituloPrimario{
@@ -326,9 +335,9 @@ left: 42%;
     font-size: 25px;
 
     position: relative;
-    top: 760%;
+    top: 757%;
 
-
+   
 
 }
 
@@ -346,7 +355,7 @@ left: 42%;
 
 
     position: relative;
-top:280% ;
+top:227% ;
 
 }
 
@@ -364,7 +373,11 @@ top:280% ;
 
 }
 
+.Contacto {
 
+position: relative;
+left: 44%;
+}
 
 .TituloPrimario:hover {
 
@@ -405,7 +418,8 @@ transform:scale(1.1) ;
 
 .BotonDescargar{
 
-    text-align:center;
+   position: relative;
+   left: 46%;
 
 
 }
