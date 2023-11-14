@@ -1,6 +1,7 @@
  *{
     margin: 0;
     padding: 0;
+    box-sizing:border-box;
 
 
  }
@@ -8,8 +9,8 @@
 
  body {
     font-family: kanit;
- 
     background-image:url(../img/FONDO4.jpg);
+ 
     background-position: center;
  background-size:cover;
  background-repeat: no-repeat;
@@ -38,8 +39,7 @@ Nav{
 
     position:absolute;
 left: 700px;
-bottom: 55px;
-
+bottom: 35px;
 
 }
  .Nav ul{ 
@@ -220,10 +220,10 @@ margin-top: 33%;
 
 display: flex;
 justify-content: space-around;
-height: 500px;
-
+height: 550px;
 width: 100%;
 padding: 30px;
+
 
 }
 
@@ -237,12 +237,11 @@ padding: 30px;
 
     display: flex;
     justify-content: space-around;
-    height: 500px;
-  
+    height: 550px;
     width: 100%;
-
     padding: 30px;
-
+  
+ 
 
 }
 
@@ -252,11 +251,10 @@ padding: 30px;
 
 display: flex;
 justify-content:space-around;
-
-height: 500px;
+height: 550px;
 width: 100%;
-
 padding: 30px;
+
 
 }
   
@@ -267,11 +265,9 @@ padding: 30px;
 
 #Seccion5{
 
-
     display: flex;
      justify-content:space-around;
-
-    height: 500px;
+    height: 550px;
     padding: 30px;
     width: 100%;
 }
@@ -281,13 +277,13 @@ padding: 30px;
 
 #Seccion6{
 
-width: 100%;
-display:inline-block;
 
+display:inline-block;
+margin: 10%;
 justify-content: center;
 align-content: center;
 align-items: center;
-margin:80px;
+
 height: 300px;
 
 
@@ -296,11 +292,12 @@ height: 300px;
 
 #Seccion6 .Informacion{
 
-position: relative;
+
 margin-top: 10%;
 width: 200px;
 height: 200px;
-left: 41%;
+position: relative;
+left: 42%;
 
 }
 
@@ -320,22 +317,23 @@ left: 41%;
 
     font-size: 25px;
 
+left: 46.5%;
 
-position: relative;
 border-radius: 25px;
 width: 180px;
-text-align: center;
 
-left: 47%;
+
+
 }
 
 .SobreMi .TituloPrimario{
 
-    text-align: center ;
-    font-size: 25px;
+ 
+  position: relative;
+  top: 755%;   
+   font-size: 25px;
 
-    position: relative;
-    top: 757%;
+
 
    
 
@@ -343,7 +341,6 @@ left: 47%;
 
 .Experiencia .TituloPrimario{
 
-    text-align: center ;
     font-size: 25px;
 
     position: relative;
@@ -361,22 +358,32 @@ top:227% ;
 
 .Educacion .TituloPrimario{
 
+
+
     position: relative;
     top: 225%;
-    
+    left: 47%;
 }
 
 .Cursos .TituloPrimario{
 
     position: relative;
     top: 225%;
-
+left: 48.5%;
 }
 
 .Contacto {
 
 position: relative;
-left: 44%;
+left: 46%;
+bottom: 1%;
+}
+.Contacto:hover{
+
+    
+    -webkit-text-fill-color: black;
+    text-decoration:underline ;
+
 }
 
 .TituloPrimario:hover {
@@ -418,14 +425,19 @@ transform:scale(1.1) ;
 
 .BotonDescargar{
 
-   position: relative;
-   left: 46%;
+    position: relative;
+    left: 39%;
+    margin: 4%;
+bottom: 20px;
+
+width: 200px;
+
 
 
 }
  .Curriculum {
 font-size:25px;
-text-transform: uppercase;
+
 margin: 50px 0 50px 0px;
 border: 2px solid;
 border-radius: 10px;
@@ -455,21 +467,35 @@ text-align: center;
 /* INICIO DE FOOTER */
 
  #Footer{
-   
-
+   display: flex;
+justify-content: space-between;
     height: 50px;
     font-size: 20px;
     padding: 5px;
-    text-align:center;
+display: flex;
 margin: 0 0 50px 0;
 padding: 30px;
 width: 100%;
 }
 
 
+.ComentarioFinal{
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
     .ImgFooter{
+        
         width: 50px;;
         height:50px;
+
+}
+
+
+@media screen and (max-widht:800px){
+    body{
+        background-color: black;
     }
-
-
+}
