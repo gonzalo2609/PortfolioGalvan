@@ -1,0 +1,1 @@
+let saludoInicial= alert( "BIENVENIDOS A MI PÁGINA WEB");
